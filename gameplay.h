@@ -22,8 +22,6 @@ private slots:
     void tick();
 
 private:
-    qreal calculateP2Direction();
-private:
     QGraphicsScene & iScene;
     QGraphicsItem *iP1, *iP2, *iBall;
     QTimer *iTimer;
